@@ -8,14 +8,12 @@ void showMenu(){
     cout << "3. Withdraw" << endl;
     cout << "4. Exit" << endl;
     cout << "**********************" << endl;
-
 }
 
 int main()
 {
     int option;
     double balance = 500;
-
 
     do{
     showMenu();
@@ -45,7 +43,6 @@ int main()
         break;
     }
     }while(option!=4);
-
 
     system("pause>0");
 
