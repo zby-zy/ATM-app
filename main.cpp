@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 void showMenu(){
@@ -42,8 +43,7 @@ int main()
             cout << "Not enough money!" << endl;
         break;
     }
-    }while(option!=4);
+    }while(option != 4);
 
-    system("pause>0");
-
+    system("pause > 0");
 }
